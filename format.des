@@ -1,0 +1,16 @@
+struct bin
+{
+	struct block_head[2]
+	{
+		char start_time[7];
+		char end_time[7];
+	}
+	struct block_item[]
+	{
+		char logic_card_no[4];
+		char purchase_trade_no[2];
+		char load_trade_no[2];
+		char last_trade_time[7];
+		char balance[4];
+	}
+}
